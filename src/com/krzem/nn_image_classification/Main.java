@@ -10,7 +10,7 @@ public class Main{
 
 
 	public Main(){
-		Classifier c=new Classifier("./testC","./images/");
+		Classifier c=new Classifier("./testC","./rsrc/");
 		System.out.println(c.test());
 		c.train(10,100000,true);
 		System.out.println(c.test());

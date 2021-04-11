@@ -2,7 +2,7 @@ package com.krzem.nn_image_classification;
 
 
 
-import com.krzem.NN.NeuralNetwork;
+import com.krzem.nn.NeuralNetwork;
 import java.io.File;
 
 
