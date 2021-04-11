@@ -241,7 +241,7 @@ public class NeuralNetwork{
 					}
 					nn=new NeuralNetwork(i,h,o,lr);
 				}
-				else if (s==1&&!l.equals("")){
+				else if (s==1&&l.length()>0){
 					int mw=Integer.parseInt(l.split(":")[0].split("x")[0]);
 					int mh=Integer.parseInt(l.split(":")[0].split("x")[1]);
 					nn.wl[wi]=new double[mh][mw];
@@ -288,7 +288,7 @@ public class NeuralNetwork{
 				if (s==0){
 					s=1;
 				}
-				else if (l.equals("")){
+				else if (l.length()>0){
 					s=2;
 				}
 			}
